@@ -1,6 +1,6 @@
 {
   "name": "signalr-asp-net",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript SignalR client without jQuery dependency",
   "dependencies": {
     "jquery-deferred": "0.3.1",
@@ -14,6 +14,7 @@
     "babel-preset-stage-0": "*"
   },
   "main": "build/signalR.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/erzki/signalr-asp-net.git"
