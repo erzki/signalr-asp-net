@@ -15,7 +15,7 @@
     "jest": "^26.0.1"
   },
   "main": "build/signalR.js",
-  "types": "index.d.ts",
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/erzki/signalr-asp-net.git"
