@@ -47,13 +47,9 @@ connection.start({ jsonp: true })
 
 #### Integration with typescript
 
-If you are working with typescript, there is a matching types package called @types/signalr-asp-net
+If you are working with typescript, the package contains types.
 
-```
-npm install --save @types/signalr-asp-net
-```
-
-and add at the beginning of TypeScript file:
+Just add at the beginning of TypeScript file:
 
 ```
 import { connection } from 'signalr-asp-net';
