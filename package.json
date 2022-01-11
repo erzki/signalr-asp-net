@@ -11,7 +11,8 @@
     "babel-core": "6.21.0",
     "babel-eslint": "*",
     "babel-preset-es2015": "*",
-    "babel-preset-stage-0": "*"
+    "babel-preset-stage-0": "*",
+    "jest": "^26.0.1"
   },
   "main": "build/signalR.js",
   "types": "index.d.ts",
@@ -30,6 +31,7 @@
   "homepage": "https://github.com/erzki/signalr-asp-net#readme",
   "readme": "README.md",
   "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir build"
+    "build": "babel src --presets babel-preset-es2015 --out-dir build",
+    "test": "jest"
   }
 }
